@@ -1,0 +1,17 @@
+#myGrid {
+    display: grid;
+    grid-template: repeat(4, 50px) / repeat(4, 50px);  
+    background-color: blueviolet;
+    /* width is automatically the whole width */
+    /* height is automatically the height of the content */
+}
+
+.oneTile {
+    width: 50px;
+    height: 50px;
+    background-color: lightcoral;
+}
+
+.oneTile:hover{
+    background-color: lightseagreen;
+}
