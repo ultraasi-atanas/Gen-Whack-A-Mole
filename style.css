@@ -6,6 +6,10 @@
     /* height is automatically the height of the content */
 }
 
+#bee, #mole {
+  width: 30px;  
+}
+
 .oneTile {
     width: 50px;
     height: 50px;
@@ -15,3 +19,4 @@
 .oneTile:hover{
     background-color: lightseagreen;
 }
+
